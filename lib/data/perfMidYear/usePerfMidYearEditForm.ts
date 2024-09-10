@@ -186,9 +186,6 @@ const usePerfMidYearEditForm = ({
   }, [formikMidYear, level]);
 
   const _onSaveReviseManager = useCallback(async () => {
-    /**
-     * Ticket HCMS-2839 error on validation height 100% on ADM/DM midyear, Request To Revise form will be not validated
-     */
     await formikMidYear.setFieldValue(
       'perfSup.status',
       PerfSuperiorStatusEnum.REVISED,
