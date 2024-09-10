@@ -1,0 +1,9 @@
+export enum LearningSlotPendingStatusEnum {
+  ALL = 'ALL',
+  REQUESTED = 'REQUESTED',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  PUBLISHED = 'PUBLISHED',
+  RESERVED = 'RESERVED',
+  DRAFT = 'DRAFT',
+}

@@ -1,0 +1,5 @@
+export enum LNAEnum {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  COMPLETED = 'COMPLETED',
+}

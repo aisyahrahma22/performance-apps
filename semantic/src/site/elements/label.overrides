@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.label:last-child {
+    margin-right: @relative2px;
+}
+
+.ui.label:first-child {
+    margin-left: @relative2px;
+}

@@ -1,0 +1,6 @@
+export enum LearningFacilitiesTypeEnum {
+  ACCOMODATION = 'ACCOMODATION',
+  ALLOWANCE = 'ALLOWANCE',
+  TRANSPORTATION = 'TRANSPORTATION',
+  OTHERS = 'OTHERS',
+}

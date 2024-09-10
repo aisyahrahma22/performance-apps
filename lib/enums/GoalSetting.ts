@@ -1,0 +1,58 @@
+export enum PerfEmployeeStatusEnum {
+  AVAILABLE = 'AVAILABLE',
+  DRAFT = 'DRAFT',
+  IN_PROGRESS = 'IN_PROGRESS',
+  COMPLETED = 'COMPLETED',
+  APPROVED = 'APPROVED',
+  REVISED = 'REVISED',
+  NO_APPROVAL = 'NO_APPROVAL',
+  REQUESTED = 'REQUESTED',
+  OUT_DATE = 'OUT_DATE',
+  UP_COMING = 'UP_COMING',
+  INVALID = 'INVALID',
+  EXPIRED = 'EXPIRED',
+}
+
+export enum PerfSuperiorStatusEnum {
+  PENDING = 'PENDING',
+  REQUESTED = 'REQUESTED',
+  DRAFT = 'DRAFT',
+  APPROVED = 'APPROVED',
+  REVISED = 'REVISED',
+  PASSED = 'PASSED',
+  NO_APPROVAL = 'NO_APPROVAL',
+  OUT_DATE = 'OUT_DATE',
+  UP_COMING = 'UP_COMING',
+  COMPLETED = 'COMPLETED',
+  EXPIRED = 'EXPIRED',
+}
+
+export enum PerfGoalSettingNoteType {
+  APPRAISEE = 'APPRAISEE',
+  DIRECT_MANAGER = 'DIRECT_MANAGER',
+  ABOVE_MANAGER = 'ABOVE_MANAGER',
+}
+
+export enum TimelineNoteType {
+  GOAL_SETTING = 'GOAL_SETTING',
+  MID_YEAR = 'MID_YEAR',
+  END_YEAR = 'END_YEAR',
+}
+
+export enum PerfEmpRevisionNoteTypeEnum {
+  DIRECT_MANAGER = 'DIRECT_MANAGER',
+  ABOVE_MANAGER = 'ABOVE_MANAGER',
+}
+
+export enum PerfGoalSettingHistoryPositionEnum {
+  LEFT = 'LEFT',
+  RIGHT = 'RIGHT',
+  REFERENCE = 'REFERENCE',
+}
+
+export enum PerfGoalSettingHistoryDetailEnum {
+  ADD = 'ADD',
+  REMOVE = 'REMOVE',
+  CHANGE = 'CHANGE',
+  NO_CHANGE = 'NO_CHANGE',
+}

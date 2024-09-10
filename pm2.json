@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "performance-apps-frontend",
+      "script": "server.js",
+      "env_development": {
+        "NODE_ENV": "development"
+      },
+      "env_staging": {
+        "NODE_ENV": "production"
+      },
+      "env_uat": {
+        "NODE_ENV": "production"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
